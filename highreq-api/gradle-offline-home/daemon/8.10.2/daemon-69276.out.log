@@ -1,0 +1,150 @@
+2026-09-28T13:34:59.147-0700 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonMain] Assuming the daemon was started with following jvm opts: [--add-opens=java.base/java.util=ALL-UNNAMED, --add-opens=java.base/java.lang=ALL-UNNAMED, --add-opens=java.base/java.lang.invoke=ALL-UNNAMED, --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED, --add-exports=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED, --add-exports=jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED, --add-opens=java.base/java.nio.charset=ALL-UNNAMED, --add-opens=java.base/java.net=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED, -XX:MaxMetaspaceSize=384m, -XX:+HeapDumpOnOutOfMemoryError, -Xms256m, -Xmx512m, -Dfile.encoding=UTF-8, -Duser.country=US, -Duser.language=en, -Duser.variant]
+2026-09-28T13:34:59.261-0700 [DEBUG] [org.gradle.internal.nativeintegration.services.NativeServices] Native-platform posix files integration is not available. Continuing with fallback.
+2026-09-28T13:34:59.287-0700 [INFO] [org.gradle.launcher.daemon.server.Daemon] start() called on daemon - DefaultDaemonContext[uid=931240b2-79b2-4d98-900c-7ff0578dc256,javaHome=C:\Program Files\Java\jdk-25.0.4.1,javaVersion=25,javaVendor=Oracle Corporation,daemonRegistryDir=F:\Works\HighReq\highreq-api\gradle-offline-home\daemon,pid=69276,idleTimeout=120000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-exports=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED,--add-exports=jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+2026-09-28T13:34:59.327-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface VMware Virtual Ethernet Adapter for VMnet1-WinpkFilter NDIS LightWeight Filter-0000
+2026-09-28T13:34:59.327-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-09-28T13:34:59.327-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface VMware Virtual Ethernet Adapter for VMnet8-WinpkFilter NDIS LightWeight Filter-0000
+2026-09-28T13:34:59.327-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-09-28T13:34:59.328-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Intel(R) Ethernet Connection (17) I219-LM-WFP Native MAC Layer LightWeight Filter-0000
+2026-09-28T13:34:59.328-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-09-28T13:34:59.328-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Intel(R) Ethernet Connection (17) I219-LM-WinpkFilter NDIS LightWeight Filter-0000
+2026-09-28T13:34:59.328-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-09-28T13:34:59.328-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Intel(R) Ethernet Connection (17) I219-LM-QoS Packet Scheduler-0000
+2026-09-28T13:34:59.329-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-09-28T13:34:59.329-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Intel(R) Ethernet Connection (17) I219-LM-WFP 802.3 MAC Layer LightWeight Filter-0000
+2026-09-28T13:34:59.329-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-09-28T13:34:59.330-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000
+2026-09-28T13:34:59.330-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-09-28T13:34:59.330-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)-WinpkFilter NDIS LightWeight Filter-0000
+2026-09-28T13:34:59.331-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-09-28T13:34:59.331-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)-QoS Packet Scheduler-0000
+2026-09-28T13:34:59.331-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-09-28T13:34:59.331-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000
+2026-09-28T13:34:59.331-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-09-28T13:34:59.332-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)-WinpkFilter NDIS LightWeight Filter-0000
+2026-09-28T13:34:59.332-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-09-28T13:34:59.332-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+2026-09-28T13:34:59.332-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-09-28T13:34:59.333-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000
+2026-09-28T13:34:59.333-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-09-28T13:34:59.333-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)-WinpkFilter NDIS LightWeight Filter-0000
+2026-09-28T13:34:59.334-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-09-28T13:34:59.334-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+2026-09-28T13:34:59.334-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-09-28T13:34:59.334-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Kernel Debug Network Adapter
+2026-09-28T13:34:59.335-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-09-28T13:34:59.335-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)
+2026-09-28T13:34:59.335-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-09-28T13:34:59.335-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)
+2026-09-28T13:34:59.335-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-09-28T13:34:59.335-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)
+2026-09-28T13:34:59.336-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-09-28T13:34:59.336-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Intel(R) Ethernet Connection (17) I219-LM
+2026-09-28T13:34:59.336-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-09-28T13:34:59.336-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:caeb:d610:c83b:47ed%ethernet_32772
+2026-09-28T13:34:59.336-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /192.168.149.140
+2026-09-28T13:34:59.336-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface VMware Virtual Ethernet Adapter for VMnet1
+2026-09-28T13:34:59.337-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-09-28T13:34:59.337-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:f62c:5dae:49a6:b63%ethernet_32773
+2026-09-28T13:34:59.337-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /192.168.40.1
+2026-09-28T13:34:59.337-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface VMware Virtual Ethernet Adapter for VMnet8
+2026-09-28T13:34:59.337-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-09-28T13:34:59.337-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:5c7c:4c78:1a6c:fe41%ethernet_32774
+2026-09-28T13:34:59.338-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /192.168.75.1
+2026-09-28T13:34:59.338-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (PPPOE)
+2026-09-28T13:34:59.338-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-09-28T13:34:59.338-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Software Loopback Interface 1
+2026-09-28T13:34:59.338-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? true
+2026-09-28T13:34:59.338-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /0:0:0:0:0:0:0:1
+2026-09-28T13:34:59.338-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /127.0.0.1
+2026-09-28T13:34:59.338-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Wintun Userspace Tunnel-WinpkFilter NDIS LightWeight Filter-0000
+2026-09-28T13:34:59.338-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-09-28T13:34:59.338-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Wintun Userspace Tunnel
+2026-09-28T13:34:59.338-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-09-28T13:34:59.339-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /198.18.66.66
+2026-09-28T13:34:59.339-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Teredo Tunneling Adapter
+2026-09-28T13:34:59.339-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-09-28T13:34:59.339-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft IP-HTTPS Platform Adapter
+2026-09-28T13:34:59.339-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-09-28T13:34:59.339-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft 6to4 Adapter
+2026-09-28T13:34:59.339-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-09-28T13:34:59.339-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (SSTP)
+2026-09-28T13:34:59.340-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-09-28T13:34:59.340-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IKEv2)
+2026-09-28T13:34:59.340-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-09-28T13:34:59.340-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (L2TP)
+2026-09-28T13:34:59.340-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-09-28T13:34:59.340-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (PPTP)
+2026-09-28T13:34:59.340-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-09-28T13:34:59.342-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Listening on [98cd42d7-fce4-4655-9254-c715dfe11dbc port:64051, addresses:[localhost/127.0.0.1]].
+2026-09-28T13:34:59.354-0700 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] Daemon starting at: Mon Sep 28 13:34:59 GMT-07:00 2026, with address: [98cd42d7-fce4-4655-9254-c715dfe11dbc port:64051, addresses:[localhost/127.0.0.1]]
+2026-09-28T13:34:59.354-0700 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertising the daemon address to the clients: [98cd42d7-fce4-4655-9254-c715dfe11dbc port:64051, addresses:[localhost/127.0.0.1]]
+2026-09-28T13:34:59.354-0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertised daemon context: DefaultDaemonContext[uid=931240b2-79b2-4d98-900c-7ff0578dc256,javaHome=C:\Program Files\Java\jdk-25.0.4.1,javaVersion=25,javaVendor=Oracle Corporation,daemonRegistryDir=F:\Works\HighReq\highreq-api\gradle-offline-home\daemon,pid=69276,idleTimeout=120000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-exports=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED,--add-exports=jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+2026-09-28T13:34:59.355-0700 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon address: [98cd42d7-fce4-4655-9254-c715dfe11dbc port:64051, addresses:[localhost/127.0.0.1]], context: DefaultDaemonContext[uid=931240b2-79b2-4d98-900c-7ff0578dc256,javaHome=C:\Program Files\Java\jdk-25.0.4.1,javaVersion=25,javaVendor=Oracle Corporation,daemonRegistryDir=F:\Works\HighReq\highreq-api\gradle-offline-home\daemon,pid=69276,idleTimeout=120000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-exports=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED,--add-exports=jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+2026-09-28T13:34:59.368-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2026-09-28T13:34:59.371-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2026-09-28T13:34:59.372-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2026-09-28T13:34:59.373-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2026-09-28T13:34:59.373-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2026-09-28T13:34:59.376-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2026-09-28T13:34:59.376-0700 [LIFECYCLE] [org.gradle.launcher.daemon.server.Daemon] Daemon server started.
+2026-09-28T13:34:59.377-0700 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonStartupCommunication] Completed writing the daemon greeting. Closing streams...
+2026-09-28T13:34:59.385-0700 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stopOnExpiration() called on daemon
+2026-09-28T13:34:59.386-0700 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] awaitExpiration() called on daemon
+2026-09-28T13:34:59.386-0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2026-09-28T13:34:59.398-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:64052 to /127.0.0.1:64051.
+2026-09-28T13:34:59.451-0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 47: received class org.gradle.launcher.daemon.protocol.Build
+2026-09-28T13:34:59.451-0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 47: Received non-IO message from client: Build{id=62a4a36f-ff00-4e87-8801-cb09d9e8ef87, currentDir=F:\Works\HighReq\highreq-api}
+2026-09-28T13:34:59.451-0700 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=62a4a36f-ff00-4e87-8801-cb09d9e8ef87, currentDir=F:\Works\HighReq\highreq-api}.
+2026-09-28T13:34:59.451-0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=62a4a36f-ff00-4e87-8801-cb09d9e8ef87, currentDir=F:\Works\HighReq\highreq-api} with connection: socket connection from /127.0.0.1:64051 to /127.0.0.1:64052.
+2026-09-28T13:34:59.453-0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=62a4a36f-ff00-4e87-8801-cb09d9e8ef87, currentDir=F:\Works\HighReq\highreq-api}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:64051 to /127.0.0.1:64052] after 0.0021833333333333336 minutes of idle
+2026-09-28T13:34:59.454-0700 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as busy, address: [98cd42d7-fce4-4655-9254-c715dfe11dbc port:64051, addresses:[localhost/127.0.0.1]]
+2026-09-28T13:34:59.454-0700 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [98cd42d7-fce4-4655-9254-c715dfe11dbc port:64051, addresses:[localhost/127.0.0.1]]
+2026-09-28T13:34:59.454-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2026-09-28T13:34:59.455-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2026-09-28T13:34:59.456-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2026-09-28T13:34:59.456-0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2026-09-28T13:34:59.456-0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2026-09-28T13:34:59.457-0700 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=62a4a36f-ff00-4e87-8801-cb09d9e8ef87, currentDir=F:\Works\HighReq\highreq-api}. Dispatching build started information...
+2026-09-28T13:34:59.457-0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 49: dispatching org.gradle.launcher.daemon.protocol.BuildStarted@500014f2
+2026-09-28T13:34:59.458-0700 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: [KIMI_DESKTOP_PROCESS_RUNNER, PATH, DAIMON_UV_PATH, KIMI_WORK_CONTEXT_IPC, SYSTEMDRIVE, DAIMON_USER_PYTHON, DAIMON_RUNTIME_BINARY_PATH, KIMI_DESKTOP_PROCESS_LEASE_DIR, GIT_CONFIG_COUNT, KIMI_DESKTOP_RUNTIME_NODE, =ExitCode, DIRNAME, USERNAME, GIT_CONFIG_VALUE_0, GIT_CONFIG_VALUE_1, OPENCLAW_CONFIG_PATH, PWD, DAIMON_CONFIG_PATH, APP_HOME, DAIMON_ADAPTER_PACKAGE_ROOT, DEFAULT_JVM_OPTS, KIMI_API_KEY, PATHEXT, SHELL, KIMI_AGENT_REGION, KIMI_CODE_EXPERIMENTAL_TOOL_SELECT, GIT_TERMINAL_PROMPT, OPENCLAW_STATE_DIR, SP_HAS_PLUGINS_MD, npm_config_prefix, OLDPWD, WINDIR, =F:, DAIMON_BUNDLE_NODE_BIN, HOMEPATH, OPENCLAW_HOME, DAIMON_CJK_FONT_BOLD, ProgramFiles, EXEPATH, CLAWDBOT_STATE_DIR, SHLVL, AGENT_GW_MCP_URL, LOCALAPPDATA, USERDOMAIN, LOGONSERVER, JAVA_HOME, PLINK_PROTOCOL, PROMPT, KIMI_SKILLS_ROOT, TERM, DAIMON_CJK_FONT_REGULAR, KIMI_BASE_URL, MSYSTEM, APPDATA, GRADLE_USER_HOME, SYSTEMROOT, JAVA_EXE, NO_COLOR, DAIMON_PYTHON_BASE_PATH, _, DAIMON_PYTHON_RUNTIME_BACKGROUND_SYNC, GIT_CONFIG_KEY_1, GIT_CONFIG_KEY_0, PYTHONIOENCODING, COMSPEC, CLASSPATH, APP_BASE_NAME, JAVA_CMD, KIMI_AGENT_CLIENT_ID, TEMP, HOMEDRIVE, KIMI_SHARE_DIR, USERPROFILE, TMP, KIMI_AGENT_GW_KEY, KIMI_SHELL_PATH, HOME]
+2026-09-28T13:34:59.463-0700 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+2026-09-28T13:34:59.463-0700 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 69276). The daemon log file: F:\Works\HighReq\highreq-api\gradle-offline-home\daemon\8.10.2\daemon-69276.out.log
+2026-09-28T13:34:59.464-0700 [DEBUG] [org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon] Requesting daemon stop after processing Build{id=62a4a36f-ff00-4e87-8801-cb09d9e8ef87, currentDir=F:\Works\HighReq\highreq-api}
+2026-09-28T13:34:59.464-0700 [LIFECYCLE] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon will be stopped at the end of the build 
+2026-09-28T13:34:59.464-0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Stop as soon as idle requested. The daemon is busy
+2026-09-28T13:34:59.464-0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon stop has been requested. Sleeping until state changes.
+2026-09-28T13:34:59.465-0700 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+2026-09-28T13:34:59.465-0700 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=931240b2-79b2-4d98-900c-7ff0578dc256,javaHome=C:\Program Files\Java\jdk-25.0.4.1,javaVersion=25,javaVendor=Oracle Corporation,daemonRegistryDir=F:\Works\HighReq\highreq-api\gradle-offline-home\daemon,pid=69276,idleTimeout=120000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-exports=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED,--add-exports=jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+
+BUILD SUCCESSFUL in 8s
+4 actionable tasks: 4 executed
+2026-09-28T13:35:05.995-0700 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+2026-09-28T13:35:05.998-0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon stop has been requested. Sleeping until state changes.
+2026-09-28T13:35:05.998-0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=62a4a36f-ff00-4e87-8801-cb09d9e8ef87, currentDir=F:\Works\HighReq\highreq-api}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:64051 to /127.0.0.1:64052]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@6d91e9 with state StopRequested
+2026-09-28T13:35:05.999-0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=62a4a36f-ff00-4e87-8801-cb09d9e8ef87, currentDir=F:\Works\HighReq\highreq-api}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:64051 to /127.0.0.1:64052]
+2026-09-28T13:35:05.999-0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2026-09-28T13:35:05.999-0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Marking daemon stopped due to command completed and stop requested. The daemon is not running a build
+2026-09-28T13:35:06.000-0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon has stopped.
+2026-09-28T13:35:06.000-0700 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Success[value=org.gradle.launcher.exec.BuildActionResult@1322211b]
+2026-09-28T13:35:06.000-0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 46: dispatching Success[value=org.gradle.launcher.exec.BuildActionResult@1322211b]
+2026-09-28T13:35:06.000-0700 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stop() called on daemon
+2026-09-28T13:35:06.000-0700 [INFO] [org.gradle.launcher.daemon.server.Daemon] Stop requested. Daemon is removing its presence from the registry...
+2026-09-28T13:35:06.001-0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Removing our presence to clients, eg. removing this address from the registry: [98cd42d7-fce4-4655-9254-c715dfe11dbc port:64051, addresses:[localhost/127.0.0.1]]
+2026-09-28T13:35:06.001-0700 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [98cd42d7-fce4-4655-9254-c715dfe11dbc port:64051, addresses:[localhost/127.0.0.1]]
+2026-09-28T13:35:06.001-0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 47: received class org.gradle.launcher.daemon.protocol.CloseInput
+2026-09-28T13:35:06.001-0700 [DEBUG] [org.gradle.launcher.daemon.server.exec.CleanUpVirtualFileSystemAfterBuild] Cleaning virtual file system after build finished
+2026-09-28T13:35:06.001-0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=62a4a36f-ff00-4e87-8801-cb09d9e8ef87, currentDir=F:\Works\HighReq\highreq-api}
+2026-09-28T13:35:06.001-0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 47: Received IO message from client: org.gradle.launcher.daemon.protocol.CloseInput@13180ff4
+2026-09-28T13:35:06.002-0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 47: received class org.gradle.launcher.daemon.protocol.Finished
+2026-09-28T13:35:06.002-0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 47: Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@1f3bd498
+2026-09-28T13:35:06.002-0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@1f3bd498
+2026-09-28T13:35:06.002-0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 46: stopping connection
+2026-09-28T13:35:06.002-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2026-09-28T13:35:06.003-0700 [DEBUG] [org.gradle.internal.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+2026-09-28T13:35:06.003-0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 47: received null
+2026-09-28T13:35:06.003-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2026-09-28T13:35:06.003-0700 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 47: Received end-of-input from client.
+2026-09-28T13:35:06.003-0700 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 46: stopping connection
+2026-09-28T13:35:06.004-0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2026-09-28T13:35:06.004-0700 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Address removed from registry.
